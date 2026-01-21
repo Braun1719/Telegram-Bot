@@ -6,7 +6,7 @@ from typing import Optional
 @dataclass
 class BotConfig:
     """Конфигурация бота"""
-    token: str = "8190868939:AAGlDJOTNAPKfLqnltC8I9bolU8DttOMdzU"
+    token: str = ""
     admin_ids: list = None
     
     def __post_init__(self):
